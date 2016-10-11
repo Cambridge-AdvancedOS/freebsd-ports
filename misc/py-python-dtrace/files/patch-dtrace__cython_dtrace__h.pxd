@@ -24,12 +24,9 @@
 -    ctypedef enum quantize_types:
 +    cdef int DTRACE_QUANTIZE_NBUCKETS
 +    cdef int DTRACE_QUANTIZE_ZEROBUCKET
-+    #ctypedef enum quantize_types:
          # NBBY = 8
 -        DTRACE_QUANTIZE_NBUCKETS = (((sizeof (uint64_t) * 8) - 1) * 2 + 1)
 -        DTRACE_QUANTIZE_ZEROBUCKET = ((sizeof (uint64_t) * 8) - 1)
-+    #    DTRACE_QUANTIZE_NBUCKETS = (((sizeof (uint64_t) * 8) - 1) * 2 + 1)
-+    #    DTRACE_QUANTIZE_ZEROBUCKET = ((sizeof (uint64_t) * 8) - 1)
  
      ctypedef struct dtrace_recdesc_t:
          # Taken from sys/dtrace.h:931
