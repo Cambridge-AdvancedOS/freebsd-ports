@@ -7,7 +7,7 @@ MASTER_SITES=	CHEESESHOP
 PKGNAMEPREFIX=	${PYTHON_PKGNAMEPREFIX}
 
 MAINTAINER=	gcj21@cl.cam.ac.uk
-COMMENT=	DTrace consumer fot Python based on libdtrace
+COMMENT=	DTrace consumer for Python based on libdtrace
 
 LICENSE=	MIT
 
