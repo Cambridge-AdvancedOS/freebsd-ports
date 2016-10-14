@@ -2,7 +2,7 @@
 # $FreeBSD$
 
 PORTNAME=	ipython
-PORTVERSION=	3.2.3
+PORTVERSION=	4.0.0
 PORTREVISION=	1
 CATEGORIES=	devel python
 MASTER_SITES=	CHEESESHOP
@@ -16,7 +16,9 @@ LICENSE_FILE=	${WRKSRC}/COPYING.rst
 
 BUILD_DEPENDS=	${PYTHON_PKGNAMEPREFIX}sqlite3>=2:databases/py-sqlite3
 RUN_DEPENDS=	${PYTHON_PKGNAMEPREFIX}pexpect>=2:misc/py-pexpect \
-		${PYTHON_PKGNAMEPREFIX}sqlite3>=2:databases/py-sqlite3
+		${PYTHON_PKGNAMEPREFIX}sqlite3>=2:databases/py-sqlite3 \
+		${PYTHON_PKGNAMEPREFIX}simplegeneric>=0.8:devel/py-simplegeneric \
+		${PYTHON_PKGNAMEPREFIX}pickleshare>0:databases/py-pickleshare
 
 USES=		python
 USE_PYTHON=	autoplist distutils
