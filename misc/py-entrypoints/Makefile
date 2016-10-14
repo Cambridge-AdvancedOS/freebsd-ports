@@ -1,15 +1,15 @@
 # $FreeBSD$
 
-PORTNAME=	entrypoints	
+PORTNAME=	entrypoints
 PORTVERSION=	0.2.2
-POSTREVISION=	1
+PORTREVISION=	1
 CATEGORIES=	misc devel python
 MASTER_SITES=	https://pypi.io/packages/py2.py3/e/entrypoints/
 PKGNAMEPREFIX=	${PYTHON_PKGNAMEPREFIX}
 EXTRACT_SUFX=	-py2.py3-none-any.whl
 
 MAINTAINER=	gcj21@cl.cam.ac.uk
-COMMENT=	Discover and load entry points from installed packages.
+COMMENT=	Discover and load entry points from installed packages
 
 LICENSE=	MIT
 
