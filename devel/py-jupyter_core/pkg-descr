@@ -1,0 +1,5 @@
+Jupyter core package. A base package on which Jupyter projects rely.
+
+There is no reason to install this port on its own.
+
+WWW: https://pyp.python.org/pypi/jupyter_core

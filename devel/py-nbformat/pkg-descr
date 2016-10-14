@@ -1,0 +1,6 @@
+The Jupyter notebook format.
+
+This port contains the base implementation of the Jupyter notebook format, and
+Python APIs for working with notebooks.
+
+WWW: https://pyp.python.org/pypi/nbformat

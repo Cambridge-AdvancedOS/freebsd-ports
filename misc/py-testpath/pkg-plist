@@ -1,0 +1,16 @@
+%%PYTHON_SITELIBDIR%%/testpath-0.3.dist-info/INSTALLER
+%%PYTHON_SITELIBDIR%%/testpath-0.3.dist-info/METADATA
+%%PYTHON_SITELIBDIR%%/testpath-0.3.dist-info/RECORD
+%%PYTHON_SITELIBDIR%%/testpath-0.3.dist-info/WHEEL
+%%PYTHON_SITELIBDIR%%/testpath/__init__.py
+%%PYTHON_SITELIBDIR%%/testpath/__init__.pyc
+%%PYTHON_SITELIBDIR%%/testpath/asserts.py
+%%PYTHON_SITELIBDIR%%/testpath/asserts.pyc
+%%PYTHON_SITELIBDIR%%/testpath/cli-32.exe
+%%PYTHON_SITELIBDIR%%/testpath/cli-64.exe
+%%PYTHON_SITELIBDIR%%/testpath/commands.py
+%%PYTHON_SITELIBDIR%%/testpath/commands.pyc
+%%PYTHON_SITELIBDIR%%/testpath/env.py
+%%PYTHON_SITELIBDIR%%/testpath/env.pyc
+%%PYTHON_SITELIBDIR%%/testpath/tempdir.py
+%%PYTHON_SITELIBDIR%%/testpath/tempdir.pyc
