@@ -13,6 +13,8 @@ COMMENT=	Test utilities for code working with files and commands
 
 LICENSE=	MIT
 
+NEED_ROOT=	yes
+
 EXTRACT_DEPENDS=${PREFIX}/bin/pip:${PORTSDIR}/devel/py-pip
 
 USES+=		python
